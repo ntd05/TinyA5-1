@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="467.0" prefWidth="600.0" style="-fx-background-color: #baffc1;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControlTiny">
+   <children>
+      <TextField fx:id="PlainText" layoutX="144.0" layoutY="58.0" prefHeight="41.0" prefWidth="383.0" />
+      <TextField fx:id="Key" layoutX="144.0" layoutY="140.0" prefHeight="41.0" prefWidth="383.0" />
+      <TextField fx:id="Cbit" layoutX="144.0" layoutY="292.0" prefHeight="41.0" prefWidth="383.0" />
+      <Button fx:id="Encode" layoutX="276.0" layoutY="220.0" mnemonicParsing="false" onAction="#Ok" prefHeight="41.0" prefWidth="72.0" text="OK" />
+      <TextField fx:id="CText" layoutX="144.0" layoutY="378.0" prefHeight="41.0" prefWidth="383.0" />
+      <Label layoutX="35.0" layoutY="58.0" prefHeight="41.0" prefWidth="82.0" text="Nhập bản rõ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="35.0" layoutY="140.0" prefHeight="41.0" prefWidth="82.0" text="Nhập khóa">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="35.0" layoutY="292.0" prefHeight="41.0" prefWidth="82.0" text="Bit">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="378.0" prefHeight="41.0" prefWidth="82.0" text="Chuỗi">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
